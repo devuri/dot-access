@@ -35,7 +35,7 @@ $data = [
     ],
 ];
 
-$dotdata = new DataKey:get($data);
+$dotdata = new DotAccess($data);
 ```
 
 ## Accessing Data
@@ -90,7 +90,7 @@ $data = [
     ],
 ];
 
-$dotdata = new DataKey:get($data);
+$dotdata = new DotAccess($data);
 
 $name = $dotdata->get('user.name'); // Output: "John Doe"
 $dotdata->set('user.age', 30);
