@@ -1,13 +1,16 @@
 <?php
 
-require 'path/to/your/function/file.php'; // Adjust the path accordingly
-
 use PHPUnit\Framework\TestCase;
 use Urisoft\DataKey;
 
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
 class DataKeyTest extends TestCase
 {
-    public function testDotAccessWithExistingKey()
+    public function test_dot_access_with_existing_key(): void
     {
         $data = [
             'user' => [
@@ -30,7 +33,7 @@ class DataKeyTest extends TestCase
         $this->assertEquals('New York', $city);
     }
 
-    public function testDotAccessWithNonExistingKey()
+    public function test_dot_access_with_non_existing_key(): void
     {
         $data = [
             'user' => [
