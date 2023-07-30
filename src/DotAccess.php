@@ -13,35 +13,35 @@ class DotAccess
      *
      * @param array|object $data The array or object to access.
      */
-    public function __construct($data)
+    public function __construct( $data )
     {
-        $this->data = new Data($data);
+        $this->data = new Data( $data );
     }
 
     /**
      * Get the value associated with the provided dot notation key.
      *
-     * @param string $key The dot notation key to access the data.
-     * @param mixed $default The default value to return if the key is not found.
+     * @param string $key     The dot notation key to access the data.
+     * @param mixed  $default The default value to return if the key is not found.
      *
      * @return mixed The value associated with the key or the default value.
      */
-    public function get($key, $default = null)
+    public function get( $key, $default = null )
     {
-        return $this->data->get($key, $default);
+        return $this->data->get( $key, $default );
     }
 
     /**
      * Set the value associated with the provided dot notation key.
      *
-     * @param string $key The dot notation key to set the data.
-     * @param mixed $value The value to set for the key.
+     * @param string $key   The dot notation key to set the data.
+     * @param mixed  $value The value to set for the key.
      *
      * @return void
      */
-    public function set($key, $value)
+    public function set( $key, $value ): void
     {
-        $this->data->set($key, $value);
+        $this->data->set( $key, $value );
     }
 
     /**
@@ -51,9 +51,9 @@ class DotAccess
      *
      * @return bool Whether the key exists or not.
      */
-    public function has($key)
+    public function has( $key )
     {
-        return $this->data->has($key);
+        return $this->data->has( $key );
     }
 
     /**
@@ -63,8 +63,8 @@ class DotAccess
      *
      * @return void
      */
-    public function remove($key)
+    public function remove( $key ): void
     {
-        $this->data->remove($key);
+        $this->data->remove( $key );
     }
 }
