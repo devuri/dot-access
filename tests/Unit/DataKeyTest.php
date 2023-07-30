@@ -1,7 +1,5 @@
 <?php
 
-require 'path/to/your/function/file.php'; // Adjust the path accordingly
-
 use PHPUnit\Framework\TestCase;
 use Urisoft\DataKey;
 
