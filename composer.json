@@ -1,7 +1,11 @@
 {
     "name": "devuri/dot-access",
     "description": "A simple PHP library for accessing nested data using dot notation.",
-    "keywords": ["dot-access", "nested-data", "dot-notation"],
+    "keywords": [
+        "dot-access",
+        "nested-data",
+        "dot-notation"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [

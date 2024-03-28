@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.2](https://github.com/devuri/dot-access/compare/v0.2.1...v0.2.2) (2023-07-30)
+
+
+### Bug Fixes
+
+* fixes docs ([90be902](https://github.com/devuri/dot-access/commit/90be902356743926ad5ddd5c7a02f4e2a7e33c52))
+
+
+### Miscellaneous Chores
+
+* codefix ([d6a7a5c](https://github.com/devuri/dot-access/commit/d6a7a5c6b016d33b81f783570c7d908309a715bf))
+
 ## [0.1.3](https://github.com/devuri/encryption/compare/v0.1.2...v0.1.3) (2023-07-29)
 
 
