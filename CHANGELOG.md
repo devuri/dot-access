@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.0](https://github.com/devuri/dot-access/compare/v0.2.2...v0.3.0) (2024-03-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* our base `DotAccess` is now an extension of `DotAccessData`
+
+### Features
+
+* our base `DotAccess` is now an extension of `DotAccessData` ([42dcf8c](https://github.com/devuri/dot-access/commit/42dcf8cc4c4e4ebe97b9c3be28e7a1599c222764))
+
+
+### Bug Fixes
+
+* adds easy access to the array with `data()` ([72f39aa](https://github.com/devuri/dot-access/commit/72f39aaf195adeccd2185d1094de5d91d7313d33))
+
 ## [0.2.2](https://github.com/devuri/dot-access/compare/v0.2.1...v0.2.2) (2023-07-30)
 
 
