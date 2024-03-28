@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/devuri/dot-access/compare/v0.3.0...v0.3.1) (2024-03-28)
+
+
+### Bug Fixes
+
+* update return type ([da86404](https://github.com/devuri/dot-access/commit/da8640448caa40de9a2a27b4a9e127e5d26d7fdd))
+
 ## [0.3.0](https://github.com/devuri/dot-access/compare/v0.2.2...v0.3.0) (2024-03-28)
 
 
