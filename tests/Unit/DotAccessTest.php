@@ -2,14 +2,17 @@
 
 namespace Tests\Unit\App\Console;
 
-use Defuse\Crypto\Crypto;
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\Filesystem\Filesystem;
 use Urisoft\DotAccess;
 
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
 class DotAccessTest extends TestCase
 {
-    public function testGetExistingKey()
+    public function test_get_existing_key(): void
     {
         $data = [
             'user' => [
@@ -33,7 +36,7 @@ class DotAccessTest extends TestCase
         $this->assertEquals('New York', $city);
     }
 
-    public function testGetNonExistingKeyWithDefault()
+    public function test_get_non_existing_key_with_default(): void
     {
         $data = [
             'user' => [
@@ -54,7 +57,7 @@ class DotAccessTest extends TestCase
         $this->assertEquals($default, $zipCode);
     }
 
-    public function testSetKey()
+    public function test_set_key(): void
     {
         $data = [
             'user' => [
@@ -71,7 +74,7 @@ class DotAccessTest extends TestCase
         $this->assertEquals($age, $wrapper->get('user.age'));
     }
 
-    public function testHasKey()
+    public function test_has_key(): void
     {
         $data = [
             'user' => [
@@ -87,7 +90,7 @@ class DotAccessTest extends TestCase
         $this->assertFalse($wrapper->has('user.age'));
     }
 
-    public function testRemoveKey()
+    public function test_remove_key(): void
     {
         $data = [
             'user' => [
